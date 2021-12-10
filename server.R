@@ -14,7 +14,7 @@ shinyServer(function(input, output, session){
   
   ### interactive dataset 
   vals_trich<-reactiveValues()
-  vals_trich$Data<-readRDS("note.rds")
+  vals_trich$Data<-readRDS("supplyData.rds")
   
 
   #### MainBody_trich is the id of DT table

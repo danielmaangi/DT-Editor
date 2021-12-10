@@ -7,6 +7,8 @@
 #    http://shiny.rstudio.com/
 #
 
+# if (require(shinysky)) devtools::install_github("AnalytixWare/ShinySky") #if not already installed
+
 library(shiny)
 library(shinyjs)
 library(shinysky)
